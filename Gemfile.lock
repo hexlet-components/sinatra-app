@@ -1,5 +1,5 @@
 GEM
-  remote: http://rubygems.org/
+  remote: https://rubygems.org/
   specs:
     base64 (0.3.0)
     logger (1.7.0)
@@ -24,9 +24,10 @@ GEM
       rack-protection (= 4.2.1)
       rack-session (>= 2.0.0, < 3)
       tilt (~> 2.0)
-    tilt (2.7.0)
+    tilt (2.8.0)
 
 PLATFORMS
+  aarch64-linux
   ruby
   x86_64-linux
 
@@ -35,5 +36,8 @@ DEPENDENCIES
   rackup
   sinatra
 
+RUBY VERSION
+  ruby 4.0.6
+
 BUNDLED WITH
-   2.5.21
+  4.0.16
