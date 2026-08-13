@@ -11,7 +11,9 @@ jobs:
       - uses: actions/checkout@v7
       - uses: ruby/setup-ruby@v1
         with:
-          ruby-version: "3.4"
+          ruby-version: .ruby-version
           bundler-cache: true
       - name: Check syntax
         run: ruby -c app.rb
+      - name: Check app responds
+        run: make check
