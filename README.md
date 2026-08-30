@@ -4,10 +4,10 @@ Simple `Hello, World` app with Sinatra.
 
 ## Requirements
 
-* Linux/Mac
-* Ruby
-* Bundler
-* Make
+- Linux/Mac
+- Ruby
+- Bundler
+- Make
 
 ## Commands
 
